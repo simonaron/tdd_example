@@ -3,6 +3,7 @@ var Calculator = require('../src/Calculator');
 
 var calculator = new Calculator();
 
+
 describe('Calculator', function() {
   describe('#sum()', function() {
     it('should return 0 when no param', function() {
