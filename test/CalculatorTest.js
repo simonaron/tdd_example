@@ -26,8 +26,8 @@ describe('Calculator', function() {
     it('should return 2 when params: -1, 3', function() {
         assert.equal(calculator.sum(-1,3), 2);
     });
-    it('should return 3 when params: 1, 1, 1', function() {
-        assert.equal(calculator.sum(1,1,1), 3);
+    it('should return 4 when params: 1, 1, 1', function() {
+        assert.equal(calculator.sum(1,1,1), 4);
     });
   });
 });
